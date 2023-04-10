@@ -60,6 +60,12 @@ header nav ul li img{
     border-radius: 50%;
     object-fit: cover;
 }
+header nav ul li i sup{
+    font-size: 12px;
+}
+header nav ul li i:hover{
+    color: #ff007b;
+}
 
 /*body section*/
 
@@ -245,6 +251,12 @@ section{
     align-items: center;
     margin-bottom: 10px;
 }
+
+.suggestion-title .suggestion-left .details .name{
+    font-style: bold;
+    color: black;
+
+}
 .suggestion-title .suggestion-left .image img{
     border-radius: 50%;
     margin-left: 15px;
@@ -258,10 +270,18 @@ section{
     padding-bottom: 2px;
     margin-left: 15px;
 }
+.suggestion-right:hover{
+ 
+    color: blue;
+   
+}
+
 .suggestion-right{
     padding-left: 23%;
 }
+
 .suggestion-right .style{
+   
     padding-left: 4%;
 }
 
